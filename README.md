@@ -5,22 +5,12 @@
 
 This folder contains various toolboxes for working with feature data in ArcGIS Pro.
 
-**NOTE**
-
-The main testing repository for this package is *numpy_geometry* on the main landing page.
-
-I move finished materials here when I have completed updates or additions to it.
-
 ----
 
 ### [**Free tools**](/Free_Tools/README.md)
 
 Free tools are sample tools that use numpy and arcpy to implement tools that normally require a Standard or Advanced ArcGIS Pro license.
-It should be noted, that in some cases, the implementation is partial because either a full implementation couldn't be done or I didn't feel like it.
-
-In any event, the principles of the tools should be available at the Basic license level... like Split Layer by Attribute ... which took about 15 years to do so.  
-
-The script can be examined for details in thes old links as well.
+It should be noted, that in some cases, the implementation is partial because either a full implementation couldn't be done or was not attempted.
 
  - [Frequency and Statistics](https://community.esri.com/t5/python-blog/free-advanced-tools-frequency-and-statistics/ba-p/902835)
  - [Feature extent to poly features](https://community.esri.com/t5/python-blog/free-advanced-tools-feature-extent-to-poly-features/ba-p/893420)
@@ -68,19 +58,15 @@ The foundations is the ability of NumPy to perform rudimentary array operations 
 
 * This tool facilitates getting a textual representation of table data in a .txt format for presentation and documentation processes.
 
-
-
 ----
 ### **Concave hulls**
 
-Contains an implementation for concave hull determination based on k-nearest neighbors (included there).  Also an implementation of convex hulls in case you want to compare differences between the hulls.
-
+Contains an implementation for concave hull determination based on k-nearest neighbors (included there). Also an implementation of convex hulls in case you want to compare differences between the hulls.
 
 -------------------------
 ### **field_calculator**
 
 This folder is a collection of scripts which contain defs which can be used in other modules or specifically, they can be used in the field calculator in ArcGIS Pro or ArcMap.  The header contains useage information, and a python parser is assumed in all cases.  Check the respective help documentation on how to use the field calculator from within a table or the Calculate Field tool in Pro.
-
 
 ### **Feature Extent to Poly Features**
 
@@ -104,29 +90,6 @@ To use, all you need to do is download scripts folder and the toolbox and instal
 
 - [Point tools for ArcGIS Pro](https://community.esri.com/t5/python-blog/point-tools-for-pro/ba-p/904043)
 - [Point tools](https://community.esri.com/t5/python-documents/free-tools-for-arcgis-pro-point-tools/ta-p/916006)
-
-*General blog posts*
-
-[Geometry ... Stuff to do with points](https://community.esri.com/t5/python-blog/geometry-stuff-to-do-with-points/ba-p/902633)
-
-
-(1)  Concave hull  [Concave hulls: the elusive container](https://community.esri.com/t5/python-blog/concave-hulls-the-elusive-container/ba-p/902545)
-
-(2)  Convex hull
-
-(3)  Near as table equivalent
-
-(4)  Modify points ... move ... sort
-
-(5)  Create points
-
-(6)  Space points.
-      Produce point patterns ensuring a certain minimum spacing between them.
-
-(7)  Minimum Spanning Trees of point sets
-
-(8)  Whatever else I forgot to mention.
-
 
 -------------------------
 ### **DATA**
