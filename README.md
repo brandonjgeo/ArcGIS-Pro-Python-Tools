@@ -52,7 +52,7 @@ The foundations is the ability of NumPy to perform rudimentary array operations 
 
 2. Frequency analysis
 
-* I have always thought that the Frequency tool should be available at all license levels.  Give it a try.
+* The Frequency tool should be available at all license levels.
 
 3. Table to Text
 
